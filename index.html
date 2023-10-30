@@ -1,22 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prototype</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+  <title>An Experience of Time</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-   <div class="container">
-    <figure>
-        <img src="DNO-Home.png" alt="Home">
-    </figure>
-    <figure>
-        <img src="DNO-walk.png" alt="Walk">
-    </figure>
-    <figure>
-        <img src="DNO-sketches.png" alt="Buildings">
-    </figure>
-    </div>
+  <div id="header">
+    <h1 id="animatedText">Walking Through Time</h1>
+  </div>
+  <div id="content" style="opacity: 0; transition: opacity 1s;">
+    <h2>The Idea</h2>
+    <p id="overview"></p>
+
+    <h2>The Process</h2>
+    <ul id="objectives"></ul>
+
+    <button onclick="location.href='journal.html'">Visit Journal Page</button>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
+
+
+
